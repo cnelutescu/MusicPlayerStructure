@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:padding="@dimen/layout_margin1">
+
+    <ImageView
+        android:id="@+id/song_list_item_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/no_cover"
+        android:contentDescription="@string/album_cover" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/layout_margin2"
+        android:paddingStart="@dimen/layout_margin2"
+        tools:ignore="RtlSymmetry">
+
+        <TextView
+            android:id="@+id/song_list_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liberta"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/song_list_Album_Artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liberta, Al Bano @ Romina Power"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/song_list_Absolute_Path"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/storage/emulated/0/...."
+            android:textSize="@dimen/text_size5"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</LinearLayout>

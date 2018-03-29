@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- layout_margin dimensions -->
+    <dimen name="layout_margin1">2dp</dimen>
+    <dimen name="layout_margin2">10dp</dimen>
+    <dimen name="layout_margin3">16dp</dimen>
+    <dimen name="layout_margin4">25dp</dimen>
+    <dimen name="layout_margin5">4dp</dimen>
+
+    <!-- padding dimensions -->
+    <dimen name="padding1">3dp</dimen>
+    <dimen name="padding2">15dp</dimen>
+    <dimen name="padding3">1dp</dimen>
+
+    <!-- border dimensions -->
+    <dimen name="border">2dp</dimen>
+
+    <!-- Text size dimensions -->
+    <dimen name="text_size1">24sp</dimen>
+    <dimen name="text_size2">18sp</dimen>
+    <dimen name="text_size3">16sp</dimen>
+    <dimen name="text_size4">14sp</dimen>
+    <dimen name="text_size5">12sp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+
+</resources>

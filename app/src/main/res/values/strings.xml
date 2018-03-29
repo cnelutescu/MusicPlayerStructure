@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MusicPlayerStructure</string>
+    <string name="enter_folder_name_here">Enter music folder name here</string>
+    <string name="msg_missing_folder_name">Please enter music folder to search!</string>
+    <string name="activity_not_resolved">Can not resolve Activity!</string>
+    <string name="playing_song">Playing the song!</string>
+    <string name="miss_folder_name_player_activity">Missing folder name in PlayerActivity!</string>
+    <string name="pause_song">Pause the song</string>
+    <string name="start_play_song">Start Play the song</string>
+    <string name="go_previous">Go to Previous Song - not implemented yet</string>
+    <string name="go_next">Go to Next Song - not implemented yet</string>
+    <string name="message_storage_permissions">Can\'t read folder! App don\'t have read/write permissions. Go to: Setting-Apps-MusicPlayerStructure-Permissions-Storage and click to enable: Storage (read the content of your storage) and than try again.</string>
+    <string name="miss_folder_name">Missing folder name!</string>
+    <string name="absolute_path_NA">AbsolutePath - N/A</string>
+    <string name="album_name_NA">AlbumName - N/A</string>
+    <string name="title_NA">Title - N/A</string>
+    <string name="artist_NA">Artist - N/A</string>
+    <string name="genre_NA">Genre - N/A</string>
+    <string name="year_NA">Year - N/A</string>
+    <string name="duration_NA">Duration - N/A</string>
+    <string name="bit_rate_NA">BitRate - N/A</string>
+    <string name="track_number_NA">TrackNumber - N/A</string>
+    <string name="type_NA">Type - N/A</string>
+    <string name="album_artist_NA">AlbumArtist - N/A</string>
+    <string name="previous">Previous</string>
+    <string name="play">Play</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="now_playing">Now playing</string>
+    <string name="search_for_media_files_in_this_folder">Search for media files in this folder:</string>
+    <string name="search">SEARCH</string>
+    <string name="songs_list">Songs list</string>
+    <string name="album_cover">Album Cover</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musicplayerstructure.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.9"
+        android:padding="@dimen/layout_margin1"
+        android:scaleType="fitXY"
+        android:src="@drawable/android_phones2"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:id="@+id/pictures_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/layout_margin4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/search_for_media_files_in_this_folder"
+            android:textAlignment="center"
+            android:textColor="@color/text_color3"
+            android:textSize="@dimen/text_size4" />
+
+        <EditText
+            android:id="@+id/folder_name"
+            style="@style/folder_name_field_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_folder_name_here"
+            android:inputType="textCapWords"
+            android:textAlignment="center"
+            android:padding="@dimen/layout_margin2"
+            android:textColor="@color/text_color2"
+            android:textSize="@dimen/text_size2"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/layout_margin1"
+            android:text="@string/search"
+            android:textAlignment="center"
+            android:background="#1A237E"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size1"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>
